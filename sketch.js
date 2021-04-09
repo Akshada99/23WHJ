@@ -34,8 +34,8 @@ function setup() {
  	boxPosition=width/2-100
  	box.y=610;
 
-	 if( KeyCode === LEFT_ARROW) {
-		 helicopterSprite.x = helicopterSprite.x-29;
+	 if(KeyCode === LEFT_ARROW) {
+		 helicopterSprite.x = helicopterSprite.x-20;
 	 }
 
 	 Matter.body.translate(packageBody,{x:-20,y:0})
